@@ -1,0 +1,53 @@
+h1 {
+	background-color: red;
+}
+
+.navbar {
+  border-bottom: #088ed6 3px solid;
+  opacity: 0.8;
+ 
+}
+
+.navbar ul{
+	list-style-type: none; /* Remove bullets */
+	  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar ul li a {
+  
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar ul li{
+  float: left;
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+ 
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.dropdown-menu {
+	display: none;
+}
+
+.dropdown-menu:hover {
+	float:none;
+}
+
+img {
+	width: 20px;
+}
