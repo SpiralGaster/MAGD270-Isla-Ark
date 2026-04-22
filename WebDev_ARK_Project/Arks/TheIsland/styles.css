@@ -54,7 +54,7 @@ img {
   height: 1000px;
   position:relative;
   background-color: aqua;
-  background-image:url("Images/annotatedMap.jpg");
+  background-image:url("../../Assets/IslandPics/Maps/mapHighRes.png");
   background-repeat: no-repeat;
 
 }
