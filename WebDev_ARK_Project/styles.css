@@ -5,29 +5,28 @@ h1 {
 .navbar {
   border-bottom: #088ed6 3px solid;
   opacity: 0.8;
- 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#667eea;
+  height:15%;
+
+}
+.navItems{
+	display: flex;
+	 flex-direction: row;
+	 
 }
 
-.navbar ul{
-	list-style-type: none; /* Remove bullets */
-	  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+.nav-link{
+	margin-left:50px;
+	transition: all 0.3s;
 }
 
-.navbar ul li a {
-  
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.nav-link:hover{
+    background-color: #5568d3;
+    transform: translateY(-2px);
 }
-
-.navbar ul li{
-  float: left;
-}
-
 
 
 .dropdown:hover .dropdown-menu {
@@ -35,19 +34,59 @@ h1 {
  
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
-
 .dropdown-menu {
 	display: none;
 }
-
-.dropdown-menu:hover {
-	float:none;
+.dropdown-menu:hover{
+	  display: flex;
+  align-content: center;
 }
 
-nav img {
+img {
 	width: 20px;
+}
+.Parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+  position:relative;
+  background-color: aqua;
+  background-image:url("Images/annotatedMap.jpg");
+  background-repeat: no-repeat;
+
+}
+.Red {
+  position: absolute;
+  top: 86%;
+  left: 11%;
+  font-size: 20px;
+  background-color: red;
+  width: 20px;
+  height:20px;
+}
+
+.Red:hover{
+	background-color: blue;
+	
+}
+.Green{
+	background-color:green;
+	 position: absolute;
+	   top: 61%;
+  left: 77%;
+    width: 20px;
+  height:20px;
+}
+
+.Blue{
+		background-color:blue;
+	 position: absolute;
+	   top: 23%;
+  left: 20%;
+    width: 20px;
+  height:20px;
+	
 }
