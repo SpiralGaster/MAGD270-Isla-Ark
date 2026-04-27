@@ -1,5 +1,45 @@
 /*Need to change the colors*/
 
+.navbar {
+  border-bottom: #088ed6 3px solid;
+  opacity: 0.8;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#667eea;
+  height:15%;
+
+}
+.navItems{
+	display: flex;
+	 flex-direction: row;
+	 
+}
+
+.nav-link{
+	margin-left:50px;
+	transition: all 0.3s;
+}
+
+.nav-link:hover{
+    background-color: #5568d3;
+    transform: translateY(-2px);
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+ 
+}
+
+.dropdown-menu {
+	display: none;
+}
+.dropdown-menu:hover{
+	  display: flex;
+  align-content: center;
+}
+
 .locations-section .intro {
     color: #7f8c8d;
     font-style: italic;
