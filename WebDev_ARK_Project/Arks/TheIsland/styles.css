@@ -4,18 +4,22 @@ h1 {
 
 .navbar {
   border-bottom: #088ed6 3px solid;
-  opacity: 0.8;
     display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#667eea;
-  height:15%;
+  background-color:#C35214;
+  height:75px;
 
 }
+
+
 .navItems{
 	display: flex;
 	 flex-direction: row;
-	 
+}
+
+.dropdown-item:hover{
+	background-color:#008000;
 }
 
 .nav-link{
@@ -34,8 +38,13 @@ h1 {
  
 }
 
+.dropdown{
+	position: relative;
+}
+
 .dropdown-menu {
 	display: none;
+	position: absolute;
 }
 .dropdown-menu:hover{
 	  display: flex;
