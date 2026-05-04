@@ -1,7 +1,14 @@
+/*04-29-2026--NEW Css bt Trevor*/
+body {
+background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, black, yellow);
+}
+
+/*04-29-2026--NEW Css bt Trevor*/
+
 h1 {
 	background-color: red;
 }
-
 .navbar {
   border-bottom: #088ed6 3px solid;
     display: flex;
@@ -9,7 +16,7 @@ h1 {
   align-items: center;
   background-color:#C35214;
   height:75px;
-
+position:relative;
 }
 .navItems{
 	display: flex;
@@ -19,21 +26,17 @@ h1 {
 .dropdown-item:hover{
 	background-color:#008000;
 }
-
 .nav-link{
 	margin-left:50px;
 	transition: all 0.3s;
 }
-
 .nav-link:hover{
     background-color: #5568d3;
     transform: translateY(-2px);
 }
-
-
 .dropdown:hover .dropdown-menu {
   display: block;
- 
+  position:absolute;
 }
 
 .dropdown-menu {
@@ -42,6 +45,7 @@ h1 {
 .dropdown-menu:hover{
 	  display: flex;
   align-content: center;
+ 
 }
 
 img {
