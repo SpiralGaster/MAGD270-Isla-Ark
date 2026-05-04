@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>ARK: Survival Evolved</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="form-styles.css">
 
 </head>
 <body>
@@ -24,24 +24,42 @@
 				<img src="../../Assets/General/Blue.jpg">
                 <a class="dropdown-item" href="blueObLocals.html">The Obelisks Blue</a>
 				</img><br>
-				<a class="dropdown-item" href="form.html">Sign Up Form</a>
-				<br>
               </div>
               </div>
         </div>
     </nav>
 	</section>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-			<section>
-			<div class = "Parent" >
-			<a href="redObLocals.html"><div class = "Red"></div></a>
-			<a href="greenObLocals.html"><div class = "Green"></div></a>
-			<a href="blueObLocals.html"><div class = "Blue"></div></a>
-			</div>
-			</section>
+<section>
+	<form>
+		<label for="fname">First name:</label><br>
+		<input type="text" id="fname" name="fname" value="fname"><br>
+		<label for="lname">Last name:</label><br>
+		<input type="text" id="lname" name="lname" value="lname"><br><br>
+		<label for="date">Date:</label><br>
+		<input type="text" id="date" name="date" value="date"><br><br>
+		
+		
+		<input type="radio" id="solo" name="groupSize" value="solo">
+		<label for="solo">Solo</label><br>
+		
+		<input type="radio" id="family" name="groupSize" value="family">
+		<label for="family">Family</label><br>
+		
+		
+		<input type="radio" id="ground" name="groupSize" value="group">
+		<label for="group">Tour Group</label><br>
+		
+		<label for="ccNum">Credit Card Number:</label><br>
+		<input type="text" id="ccNum" name="ccNum" value="ccNum"><br>
+		
+		
+		
+		
+		
+		<input type="submit" value="Submit">
+	</form>
+</section>
 			
 
 			
