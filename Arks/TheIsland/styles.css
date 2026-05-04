@@ -1,22 +1,45 @@
 /*04-29-2026--NEW Css bt Trevor*/
 body {
 background-color: black; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, black, yellow);
+  /*background-image: linear-gradient(to bottom right, black, yellow);*/
 }
-
+.Choose{
+	text-align:center;
+	background-color:#5a5a5a;
+	color:white;
+}
+.ImageOne{
+	 background-image: url("../../Assets/BackGrounds/ARK2_06.avif");
+   background-repeat: no-repeat;
+   background-position: center;
+   width:2600px;
+   height:900px;
+   margin-top:15px;
+    margin-bottom:15px;
+}
+.mySlides {
+	display:none;
+	margin-top:15px;
+	 background-position: center;
+   display: flex;
+   margin: auto;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
+	}
 /*04-29-2026--NEW Css bt Trevor*/
 
-h1 {
-	background-color: red;
-}
 .navbar {
   border-bottom: #088ed6 3px solid;
-    display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#C35214;
+  background-image: url("../../Assets/BackGrounds/image-cache.jpg");
   height:75px;
-position:relative;
+  width:380px;
+  position:relative;
+  display: flex;
+   margin: auto;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
 }
 .navItems{
 	display: flex;
@@ -25,6 +48,10 @@ position:relative;
 }
 .dropdown-item:hover{
 	background-color:#008000;
+}
+
+.dropdown-item{
+	background-color:#A9A9A9;
 }
 .nav-link{
 	margin-left:50px;
@@ -48,8 +75,9 @@ position:relative;
  
 }
 
-img {
+.menueImage {
 	width: 20px;
+	height:auto;
 }
 .Parent{
   display: flex;

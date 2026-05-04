@@ -15,13 +15,13 @@
               <div class="dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown">Obelisks</a>
 				<div class="dropdown-menu">
-				<img src="../../Assets/General/Green.jpg">
+				<img class= "menueImage" src="../../Assets/General/Green.jpg">
                 <a class="dropdown-item" href="greenObLocals.html">The Obelisks Green</a>
 				</img><br>
-				<img src="../../Assets/General/Red.jpg">
+				<img class= "menueImage" src="../../Assets/General/Red.jpg">
                 <a class="dropdown-item" href="redObLocals.html">The Obelisks Red</a>
 				</img><br>
-				<img src="../../Assets/General/Blue.jpg">
+				<img class= "menueImage" src="../../Assets/General/Blue.jpg">
                 <a class="dropdown-item" href="blueObLocals.html">The Obelisks Blue</a>
 				</img><br>
               </div>
@@ -30,8 +30,8 @@
     </nav>
 	</section>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1 class = "Choose">Choose your ObLocals on the map</h1>
+
 
 			<section>
 			<div class = "Parent" >
@@ -39,9 +39,42 @@
 			<a href="greenObLocals.html"><div class = "Green"></div></a>
 			<a href="blueObLocals.html"><div class = "Blue"></div></a>
 			</div>
+			
+			<div class = "ImageOne">
+			</div>
+			</section>
+			
+			<section>
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/argi.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/brontos.webp" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/direwolf.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/giga.webp" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/mammoth.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/pteranodon.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/raptor.webp" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/rex.avif" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/sabortooth.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/trike.webp" style="width:1000px">
 			</section>
 			
 
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
 			
 </body>
 </html>
