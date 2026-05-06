@@ -51,6 +51,12 @@ position:relative;
 img {
 	width: 20px;
 }
+
+.icons{
+	width:35px;
+	height:35px;
+}
+
 .Parent{
   display: flex;
   justify-content: center;

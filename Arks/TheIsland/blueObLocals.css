@@ -47,10 +47,6 @@ position:relative;
  
 }
 
-img {
-	width: 20px;
-}
-
 
 .locations-section .intro {
     color: #7f8c8d;
@@ -147,6 +143,11 @@ img {
 img{
 	width:auto;
 	height:100px;
+}
+
+.icons{
+	width:35px;
+	height:35px;
 }
 
 @media (min-width: 768px) {
