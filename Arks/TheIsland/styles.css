@@ -2,12 +2,14 @@
 body {
 background-color: black; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, black, yellow);
+  color: white;
 }
 
 /*04-29-2026--NEW Css bt Trevor*/
 
 h1 {
 	background-color: red;
+	color: white;
 }
 .navbar {
   border-bottom: #088ed6 3px solid;
