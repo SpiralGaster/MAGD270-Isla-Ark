@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Isla Ark</title>
+<title>ARK: Survival Evolved</title>
 <link rel="stylesheet" href="styles.css">
 
+<!--Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
 </head>
 <body>
 
 	<section>
     <!--start here-->
     <nav id="main-nav"class="navbar"> <!--fixed-top-->
-        <div class="navItems navbar-collapse" id="navbarCollapse">
+		<div class="navItems navbar-collapse" id="navbarCollapse">
               <a href="index.html" class="nav-link">Home</a>
               <div class="dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown">Obelisks</a>
 				<div class="dropdown-menu">
-				<img class="icons" src="../../Assets/General/Green.jpg">
-                <a class="dropdown-item" href="greenObLocals.html">The Green Obelisk</a>
+				<img class= "menueImage" src="../../Assets/General/Green.jpg">
+                <a class="dropdown-item" href="greenObLocals.html">The Obelisks Green</a>
 				</img><br>
-				<img class="icons" src="../../Assets/General/Red.jpg">
-                <a class="dropdown-item" href="redObLocals.html">The Red Obelisk</a>
+				<img class= "menueImage" src="../../Assets/General/Red.jpg">
+                <a class="dropdown-item" href="redObLocals.html">The Obelisks Red</a>
 				</img><br>
-				<img class="icons" src="../../Assets/General/Blue.jpg">
-                <a class="dropdown-item" href="blueObLocals.html">The Blue Obelisk</a>
+				<img class= "menueImage" src="../../Assets/General/Blue.jpg">
+                <a class="dropdown-item" href="blueObLocals.html">The Obelisks Blue</a>
 				</img><br>
-				<a class="dropdown-item" href="form.html">Sign Up Form</a>
-				<br>
               </div>
               </div>
         </div>
     </nav>
 	</section>
 
-<h1>Welcome...to Isla Ark!</h1>
-<p>Dinosaurs and ancient creatures alive to roam! Come with us on a journey of a life time! 
-If want to know where we will go, start from the Red Obelisk and go down in the Obelisk tab. If you want to sign up, hit the sign up link!</p>
+<h1 class = "Choose">Choose your Obelisks on the map</h1>
+
 
 			<section>
 			<div class = "Parent" >
@@ -42,9 +43,48 @@ If want to know where we will go, start from the Red Obelisk and go down in the 
 			<a href="greenObLocals.html"><div class = "Green"></div></a>
 			<a href="blueObLocals.html"><div class = "Blue"></div></a>
 			</div>
+			
+			<div class = "ImageOne">
+			</div>
 			</section>
 			
+			<section class ="Slideshow">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/argi.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/brontos.webp" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/direwolf.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/giga.webp" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/mammoth.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/pteranodon.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/raptor.webp" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/rex.avif" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/sabortooth.jpg" style="width:1000px">
+			  <img class="mySlides" src="../../Assets/IslandPics/Dinos/trike.webp" style="width:1000px">
+			</section>
+			
+			<section>
+			<footer class ="footer">
+			  <p>Web deleopment by: Mel Byrnes| Tru NiBlack-Gray | Trevor Allen </p>
+			  <p>Calss MAGD 270-01, Year 2026</p>
+			</footer>
+			</section>
 
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
 			
 </body>
 </html>

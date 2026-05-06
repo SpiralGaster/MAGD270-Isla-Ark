@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sign-up!</title>
-<link rel="stylesheet" href="form-styles.css">
+<title>ARK: Survival Evolved</title>
+<link rel="stylesheet" href="styles.css">
 
+<!--Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
 </head>
 <body>
 
 	<section>
     <!--start here-->
     <nav id="main-nav"class="navbar"> <!--fixed-top-->
-        <div class="navItems navbar-collapse" id="navbarCollapse">
+		<div class="navItems navbar-collapse" id="navbarCollapse">
               <a href="index.html" class="nav-link">Home</a>
               <div class="dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown">Obelisks</a>
 				<div class="dropdown-menu">
-				<img class="icons" src="../../Assets/General/Green.jpg">
-                <a class="dropdown-item" href="greenObLocals.html">The Green Obelisk</a>
+				<img class= "menueImage" src="../../Assets/General/Green.jpg">
+                <a class="dropdown-item" href="greenObLocals.html">The Obelisks Green</a>
 				</img><br>
-				<img class="icons" src="../../Assets/General/Red.jpg">
-                <a class="dropdown-item" href="redObLocals.html">The Red Obelisk</a>
+				<img class= "menueImage" src="../../Assets/General/Red.jpg">
+                <a class="dropdown-item" href="redObLocals.html">The Obelisks Red</a>
 				</img><br>
-				<img class="icons" src="../../Assets/General/Blue.jpg">
-                <a class="dropdown-item" href="blueObLocals.html">The Blue Obelisk</a>
+				<img class= "menueImage" src="../../Assets/General/Blue.jpg">
+                <a class="dropdown-item" href="blueObLocals.html">The Obelisks Blue</a>
 				</img><br>
               </div>
               </div>
         </div>
     </nav>
 	</section>
-
-<section>
-	<form>
+	<section>
+	<div class ="parent1">
+	<form id="form" class="form1">
+	
+	<h2>Vacation Form</h2>
+	<br><br>
 		<label for="fname">First name:</label><br>
-		<input type="text" id="fname" name="fname" value="fname"><br>
+		<input type="text" id="fname" name="fname" value="First Name"><br>
 		<label for="lname">Last name:</label><br>
-		<input type="text" id="lname" name="lname" value="lname"><br><br>
-		<label for="date">Date:</label><br>
-		<input type="text" id="date" name="date" value="date"><br><br>
+		<input type="text" id="lname" name="lname" value="Last Name"><br><br>
 		
+		<h3>Group Size</h3>
 		
-		<input type="radio" id="solo" name="groupSize" value="solo">
+		<input type="radio" id="solo" name="group_Size" value="Solo">
 		<label for="solo">Solo</label><br>
 		
-		<input type="radio" id="family" name="groupSize" value="family">
+		
+		<input type="radio" id="family" name="group_Size" value="Family">
 		<label for="family">Family</label><br>
 		
 		
-		<input type="radio" id="ground" name="groupSize" value="group">
-		<label for="group">Tour Group</label><br>
+		<input type="radio" id="tour_Group" name="group_Size" value="Tour Group">
+		<label for="tour_Group">Tour Group</label><br><br>
 		
 		<label for="ccNum">Credit Card Number:</label><br>
-		<input type="text" id="ccNum" name="ccNum" value="ccNum"><br>
-		
+		<input type="text" id="ccNum" name="ccNum" value="Credit Card Number"><br><br>
 		
 		
 		
 		
 		<input type="submit" value="Submit">
 	</form>
-</section>
-			
-
-			
+	</div>
+	</section>		
 </body>
 </html>
 
