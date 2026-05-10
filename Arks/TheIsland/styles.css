@@ -71,6 +71,9 @@ background-color: black; /* For browsers that do not support gradients */
   font-size: 16px;
   
 }
+
+
+
 .navItems{
 	 display: flex;
 	 flex-direction: row;
@@ -125,8 +128,46 @@ background-color: black; /* For browsers that do not support gradients */
   background-image:url("../../Assets/IslandPics/Maps/mapHighRes.png");
   background-repeat: no-repeat;
   background-size:1000px;
-
 }
+
+.parent1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+  position:relative;
+  
+ 
+}
+
+h3,h2{
+	color:white;
+	 font-family: "Rubik Distressed", system-ui;
+	  font-style: normal;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+input{
+	background-color: aqua;
+	
+	font-weight: 400;
+	font-style: normal;
+	border-radius: 25px;
+	font-size: 16px;
+}
+
+label{
+	color:white;
+	 font-family: "Rubik Distressed", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 25px;
+  font-size: 16px;
+	
+}
+
 .Red {
   position: absolute;
   top: 84%;
