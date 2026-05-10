@@ -1,4 +1,9 @@
-/*Changes from Trevor 05-06-2026*/
+/*Changes from Trevor 05-10-2026*/
+.container{
+	width:100%;
+	background-image: url("../../Assets/BackGrounds/wallpaper-967837_1280 - Copy.jpg");
+	/*background-image: linear-gradient(to right, red , black);*/
+}
 .footer{
     text-align:center;
 	color: white;
@@ -6,17 +11,11 @@
 	margin-top:5px;
 	font-family: "Rubik Distressed", system-ui;
 	font-size: 40px;
-	background-color:black;
 	padding-top:2px;
 	padding-bottom:2px;
 }
 
-.container{
-	width:100%;
-	background-image: url("../../Assets/BackGrounds/wallpaper-967837_1280 - Copy.jpg");
-}
-
-/*Changes from Trevor 05-06-2026*/
+/*Changes from Trevor 05-10-2026*/
 .navbar {
   border-bottom: #088ed6 3px solid;
   justify-content: center;
