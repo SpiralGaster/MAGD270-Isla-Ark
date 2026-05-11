@@ -3,20 +3,14 @@ body {
 background-color: black; /* For browsers that do not support gradients */
   /*background-image: linear-gradient(to bottom right, black, yellow);*/
 }
-.container{
-	width:100%;
-	background-image: url("../../Assets/BackGrounds/wallpaper-967837_1280 - Copy.jpg");
-	/*background-image: linear-gradient(to right, red , black);*/
-}
 .footer{
     text-align:center;
 	color: white;
 	width:100%;
+	height:175px;
 	margin-top:5px;
 	font-family: "Rubik Distressed", system-ui;
 	font-size: 40px;
-	padding-top:2px;
-	padding-bottom:2px;
 }
 .Choose{
 	text-align:center;
@@ -25,22 +19,22 @@ background-color: black; /* For browsers that do not support gradients */
 
 }
 .ImageOne{
-   background-image: url("../../Assets/BackGrounds/ARK2_06.avif");
+	 background-image: url("../../Assets/BackGrounds/ARK2_06.avif");
    background-repeat: no-repeat;
    background-position: center;
    width:100%;
    height:900px;
    margin-top:15px;
-   margin-bottom:15px;
+    margin-bottom:15px;
 }
 .mySlides {
 	display:none;
 	margin-top:15px;
-	background-position: center;
-    display: flex;
-    margin: auto;
-    justify-content: center; /* Horizontal */
-    align-items: center;     /* Vertical */
+	 background-position: center;
+   display: flex;
+   margin: auto;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
 	}
 /*04-29-2026--NEW Css bt Trevor*/
 
@@ -53,7 +47,7 @@ background-color: black; /* For browsers that do not support gradients */
   width:380px;
   position:relative;
   display: flex;
-  margin: auto;
+   margin: auto;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
   
@@ -68,7 +62,7 @@ background-color: black; /* For browsers that do not support gradients */
 
 
 .navItems{
-	 display: flex;
+	display: flex;
 	 flex-direction: row;
 	 
 }
@@ -82,10 +76,9 @@ background-color: black; /* For browsers that do not support gradients */
 	transition: all 0.3s;
 }
 .nav-link{
-	margin-left:auto;/*05-06-2026--NEW Css bt Trevor*/
+	margin-left:50px;
 	transition: all 0.3s;
-	color:white;/*05-06-2026--NEW Css bt Trevor*/
-	padding-left:15px; /*05-06-2026--NEW Css bt Trevor*/
+	color:white;
 }
 .nav-link:hover{
     background-color: #5568d3;
